@@ -8,11 +8,11 @@
 <body>
     <form action="" method="post">
         <p>Digite seu nome:</p>
-        <input type="text" name="nome" placeholder="Nome completo"> <br>
+        <input type="text" name="nome" placeholder="Nome completo" required> <br>
         <p>Digite seu e-mail:</p> 
-        <input type="email" name="e-mail" value="gmail.com"> <br>
+        <input type="email" name="e-mail" value="gmail.com" required> <br>
         <P>Insira seu número:</P> 
-        <input type="number" name="Telefone" placeholder="(XX) XXXXX-XXXX"> <br>
+        <input type="number" name="Telefone" placeholder="(XX) XXXXX-XXXX" requiredm> <br>
         <p>Estado civil:</p> 
         <input type="radio" name="Estado civil" value="Casado"> Casado (a)
         <input type="radio" name="Estado civil" value="Solteiro"> Solteiro (a) <br>
@@ -24,7 +24,8 @@
             <option value="2">Santa Catarina</option>
             <option value="3">Rio Grande do Sul</option> <br>
         </select>
-
+    <button type="submit">Enviar</button>
+    <button type="reset">Apagar</button>
     </form>
 </body>
 </html>
